@@ -1,0 +1,20 @@
+// colors
+$primary: #2CBCFF;
+$white: white;
+$black: black;
+
+// screen sizes
+$tablet: 768px;
+$mobile: 415px;
+
+// fonts
+$sans: "Alegreya Sans", sans-serif;
+$serif: "Alegreya", serif;
+
+// elements
+.container {
+  max-width: 1060px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: auto;
+}

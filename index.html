@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/scss/style.css">
+    <title>Vite</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="headerNav">
+        <h1 class="headerNav__logo"><a href=""><span>TRAVEL</span>BLOG</a></h1>
+        
+        <ul class="headerNav__list">
+          <li class="headerNav__listItem"><a href="">Articles</a></li>
+          <li class="headerNav__listItem"><a href="">Sign in</a></li>
+        </ul>
+        
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2 class="hero__heading">Welcome to Travel Blog:
+          Insights, Inspiration, and More!</h2>
+          
+          <div class="hero__divider"></div>
+          
+        <p class="hero__text">Insights, inspiration, and practical advice on a wide range of topics. Whether you're looking for the latest trends, expert tips, or simply a bit of inspiration to brighten your day!</p>
+        
+        <div class="heroContainer">
+          <a class="heroContainer__scroll" href="">Scroll to articles</a>
+        </div>
+      </section>
+      
+      <section class="latestNews">
+        <h2 class="latestNews__heading">Latest articles</h2>
+        <p class="latestNews__subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      
+      <div class="latestNews__tagCardContainer">
+        
+        <ul class="latestNews__tagList">
+          <li><a class="latestNews__tagListItem--active" href="">All</a></li>
+          <li><a class="latestNews__tagListItem" href="">Adventure</a></li>
+          <li><a class="latestNews__tagListItem" href="">Travel</a></li>
+          <li><a class="latestNews__tagListItem" href="">Fashion</a></li>
+          <li><a class="latestNews__tagListItem" href="">Technology</a></li>
+          <li><a class="latestNews__tagListItem" href="">Branding</a></li>
+        </ul>
+        
+        <div class="cardContainer">
+          
+          <div class="card">
+            <img class="card__img" src="https://picsum.photos/200" alt="">
+            <div class="card__details">
+              <p class="card__date">08.08.2021</p>
+              <p class="card__heading">Lorem ispum dolor sit amet ipsum dolor ipsum</p>
+              <p class="card__content">Why do programmers prefer dark mode?
+                Because light attracts bugs! Lorem ipsum dolor sit amet hue hue</p>
+              
+            </div>
+          </div>
+          
+          <div class="card">
+            <img class="card__img" src="https://picsum.photos/200" alt="">
+            <div class="card__details">
+              <p class="card__date">08.08.2021</p>
+              <p class="card__heading">Lorem ispum dolor sit</p>
+              <p class="card__content">Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img class="card__img" src="https://picsum.photos/200" alt="">
+            <div class="card__details">
+              <p class="card__date">08.08.2021</p>
+              <p class="card__heading">Dream destinations to visit this year</p>
+              <p class="card__content">Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</p>
+          
+            </div>
+          </div>
+           
+          <div class="card">
+            <img class="card__img" src="https://picsum.photos/200" alt="">
+            <div class="card__details">
+              <p class="card__date">08.08.2021</p>
+              <p class="card__heading">Dream destinations to visit this year</p>
+              <p class="card__content">Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</p>
+          
+            </div>
+          </div>     
+        </div> 
+      </div>   
+      </section>
+      
+      <section class="formContainer">
+        <p class="formContainer__heading">Sign in form</p>
+        
+        <form action="/" class="form">
+          <div class="form__row">
+              <div class="form__labelInput">
+                <label class="form__label" for="name">Name</label>
+                <input class="form__input" type="text" id="name" placeholder="Your name">
+              </div>
+              <div class="form__labelInput">
+                <label class="form__label" for="surname">Surname</label> 
+                <input class="form__input" type="text" id="surname" placeholder="Your surname">
+              </div>
+          </div>
+          
+          <div class="form__row">
+            <div class="form__labelInput">
+              <label class="form__label" for="email">E-mail</label>
+              <input class="form__input" type="text" id="email" placeholder="example@email.com">
+            </div>
+            <div class="form__labelInput">
+              <label class="form__label" for="password">Password</label>
+              <input class="form__input" type="password" id="password" placeholder="********">
+            </div>
+          </div>
+          
+          <div class="form__row">
+            <div class="form__labelInput">
+              <label class="form__label" for="content">Content</label>
+              <textarea class="form__textarea" id="content" placeholder="message"></textarea>
+            </div>
+            <div class="form__checkboxButton">
+              <div class="form__checkbox">
+                <input type="checkbox" id="consent1">
+                <label class="form__label" for="consent1">Consent one</label>
+              </div>
+              
+              <div class="form__checkbox">
+                <input type="checkbox" id="consent2">
+                <label class="form__label" for="consent2">Consent two (pre checked)</label>
+              </div>
+              <button class="form__button" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer__container">
+          <div class="textContainer">
+            <p class="textContainer__heading">Contact the Publisher</p>
+            <p class="textContainer__text">example@email.com</p>
+            <p class="textContainer__text">+944 450 904 505</p>
+          </div>
+          
+          <div class="textContainer">
+            <p class="textContainer__heading">Explore</p>
+            <p class="textContainer__text">About</p>
+            <p class="textContainer__text">Partners</p>
+            <p class="textContainer__text">Job Opportunities</p>
+            <p class="textContainer__text">Advertise</p>
+            <p class="textContainer__text">Membership</p>
+          </div>
+          
+          <div class="textContainer">
+            <p class="textContainer__heading">Headquarter</p>
+            <p class="textContainer__text--address">1999 Middleville,
+              NY 1001, New York
+              USA</p>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="subfooter">
+        
+        <p class="subfooter__logo">2024 | Travel Blog</p>
+        <a href="" class="subfooter__subscribe">Subscribe Now</a>
+        
+      </div>
+    </footer>
+  </body>
+</html>
