@@ -40,7 +40,7 @@
   
   
   &__heading {
-    width: 614px;
+    width: 25%;
     font-family: Montserrat;
     font-size: 36px;
     font-weight: bold;
@@ -49,12 +49,12 @@
     
     @include media($tablet) {
       font-size: 30px;
-      width: 450px;
+      width: 60%;
     }
     
     @include media($mobile) {
       font-size: 30px;
-      width: 400px;
+      width: 95%;
     }
   }
   
@@ -65,7 +65,7 @@
   }
   
   &__text {
-    width: 420px;
+    width: 24%;
     font-family: Open Sans;
     font-size: 14px;
     text-align: center;
@@ -74,12 +74,12 @@
      
     @include media($tablet) {
       font-size: 14px;
-      width: 400px;
+      width: 80%;
     }
     
     @include media($mobile) {
       font-size: 14px;
-      width: 350px;
+      width: 90%;
     }
   }
   
@@ -157,6 +157,7 @@
     list-style: none;
     gap: 25px;
     margin-top: 60px;
+    flex-wrap: wrap;
     
     @include media($tablet) {
       gap: 16px;
