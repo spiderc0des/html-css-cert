@@ -34,7 +34,7 @@ html {
 .headerNav {
   display: flex;
   align-items: center;
-  width: 68%;
+  width: 70%;
 }
 @media (max-width: 768px) {
   .headerNav {
@@ -78,7 +78,7 @@ html {
   color: #d4a373;
 }
 .footer {
-  padding: 103px 70px;
+  padding: 103px 15%;
   background-color: #212529;
 }
 .footer__container {
@@ -277,7 +277,7 @@ html {
 .latestNews__tagCardContainer {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 @media (max-width: 768px) {
